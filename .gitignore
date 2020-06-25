@@ -1,4 +1,8 @@
-data/*
+figures/*
+histories/*
+models/*
+model-types.txt
+rmse_matrix.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

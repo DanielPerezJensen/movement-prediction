@@ -29,7 +29,7 @@ for n in ns:
                 path_datapoint = [x0, y0, x1, y1, x2, y2, x5, y5]
                 path_data.append(path_datapoint)
 
-    path_df = pd.DataFrame(path_data,
+    path_df = pd.DataFrame(path_data[:1999],
                            columns=["x0", "y0", "x1", "y1", "x2", "y2",
                                     "x3", "y3"])
     path_df.to_csv(f"data/preprocessed_data-n={n}.csv", sep="\t")
